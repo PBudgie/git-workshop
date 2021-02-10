@@ -15,8 +15,6 @@ class Node {
 }
 
 class Tree {
-    //EGG: Congrats! You found an egg! Type a smiley in the Zoom chat :)
-
     constructor(node) {
         this.root = node
     }
