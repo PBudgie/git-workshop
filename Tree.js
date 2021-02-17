@@ -12,6 +12,10 @@ class Node {
     setRight(node) {
         this.right = node
     }
+
+    isLeafNode() {
+        return this.right === null || this.left === null
+    }
 }
 
 class Tree {
