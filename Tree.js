@@ -14,7 +14,7 @@ class Node {
     }
 
     isLeafNode() {
-        return this.right === null || this.left === null
+        return this.right === null && this.left === null
     }
 }
 
